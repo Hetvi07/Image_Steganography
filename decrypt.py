@@ -35,6 +35,7 @@ if arg_count not in [2, 3]:
     sys.exit(0)
 
 if arg_count == 3:
+    
     output = sys.argv[2]
 else:
     output = 'output'
